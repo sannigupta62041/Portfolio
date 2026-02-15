@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(31, 3, 72); */
+    background-image:linear-gradient(to right,rgb(39, 24, 71),rgb(23, 64, 185));
+    color: white;
+    padding: 18px;
+    align-items: center;
+    
+}
+.logo{
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: "Playwrite AU QLD", cursive;
+}
+nav ul{
+    display: flex;
+    gap: 19px;
+}
+nav ul li{
+    list-style: none;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+.hero{
+ background-image: linear-gradient(to right,rgb(153, 218, 230),rgb(173, 159, 249));
+    height: 85vh;
+    display: flex;
+    justify-content:center;
+    gap: 130px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+.hero-left .one{
+    font-size: 60px;
+    color: #27198e;
+    font-weight: bolder;
+}
+.hero-left .two{
+    font-size: 40px;
+}
+.bold{
+    font-weight: bold;
+}
+.hero-right img{
+   border-radius: 50%;
+}
+.btn{
+   background-color: rgb(34, 38, 103); 
+   color: white;
+   padding: 4px 6px;
+   margin: 0px 2px;
+   border: 2px solid purple;
+   border-radius: 9px;
+   cursor: pointer;
+   font-size: 18px;  
+}
+.button-container{
+    padding:9px 0px
+}
+.project{
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #87b5d7;
+    padding: 22px 100px;
+   background-image: linear-gradient(to right,rgb(153, 218, 230),rgb(164, 152, 251));
+
+}
+.project-image img{
+    width: 35vw;
+    margin: 35px;
+    border-radius: 12px;
+    
+}
+.project-info{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+.project-info .tex{
+    font-size: 27px;
+    padding: 10px 0px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.project-info .p{
+    padding: 12px 0px;
+}
+.project-info .button{
+    padding: 12px 0px;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}  
+footer{
+    background-color: rgb(4, 16, 64);
+    color: white;
+    text-align: center;
+    padding:22px;
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+}
